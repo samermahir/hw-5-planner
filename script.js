@@ -2,7 +2,7 @@
 var today = moment().format('LLL');
 $("#currentDay").text(today);
 
-//
+
 var localTime = moment().format('HH');
 
 
