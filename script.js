@@ -1,11 +1,12 @@
+//currentDay on page
 var today = moment().format('LLL');
 $("#currentDay").text(today);
 
-
+//
 var localTime = moment().format('HH');
 
 
-
+  // listen for save button clicks
 $(".saveBtn").on("click", function (event) {
     event.preventDefault();
 
@@ -15,7 +16,7 @@ $(".saveBtn").on("click", function (event) {
 
 });
 
-
+       //checking current position
    $("input").each(function () {
         var selectedInput = parseInt($(this).attr("id"));
 
@@ -31,6 +32,6 @@ $(".saveBtn").on("click", function (event) {
             $(this).addClass("past")
 
         };
-
+         //load saved data from localStorage
         $("#" + selectedInput).val(localStorage.getItem(selectedInput))
     });
