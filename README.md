@@ -31,3 +31,20 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 ```
+
+## Description
+
+A day planner that allows you to write in the text boxes and save that data on the local storage by pressing the save button. This website includes hour slots that are between 9am and 5pm and the current date and time.
+
+## Screenshot
+
+
+## Technologies Used
+
+-Javascript
+-jQuery
+-Bootstrap
+-Moment.js
+
+
+## Link to website
