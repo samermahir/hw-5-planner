@@ -70,3 +70,11 @@ body {
     transition: all 0.3s ease-in-out;
   }
   
+  /* This will be applied on any screen smaller than 768px */
+@media screen and (max-width: 768px) {
+
+}
+
+/* This will be applied on any screen smaller than 575px */
+@media screen and  (max-width: 575px) {
+}
