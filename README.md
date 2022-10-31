@@ -37,6 +37,7 @@ THEN the saved events persist
 A day planner that allows you to write in the text boxes and save that data on the local storage by pressing the save button. This website includes hour slots that are between 9am and 5pm and the current date and time.
 
 ## Screenshot
+![Screen Shot 2022-10-31 at 1 12 07 PM](https://user-images.githubusercontent.com/113157987/199102301-9b28ec2a-7a2f-4176-a022-7d50f03f6f73.png)
 
 
 ## Technologies Used
